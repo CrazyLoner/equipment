@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "54f22a646dbb1f7c1fdd34256fe3b2dd",
+    "content-hash": "cd2bee418fa566e69c6000cf2fc5708a",
     "packages": [
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -2225,16 +2225,16 @@
         },
         {
             "name": "zizaco/entrust",
-            "version": "1.9.1",
+            "version": "5.2.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Zizaco/entrust.git",
-                "reference": "05b2542f5f96ea80998a13800c6e216df6821bff"
+                "reference": "3623cc052937d9e62543402b50f24065720d44b9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Zizaco/entrust/zipball/05b2542f5f96ea80998a13800c6e216df6821bff",
-                "reference": "05b2542f5f96ea80998a13800c6e216df6821bff",
+                "url": "https://api.github.com/repos/Zizaco/entrust/zipball/3623cc052937d9e62543402b50f24065720d44b9",
+                "reference": "3623cc052937d9e62543402b50f24065720d44b9",
                 "shasum": ""
             },
             "require": {
@@ -2250,16 +2250,6 @@
                 "sami/sami": "dev-master"
             },
             "type": "library",
-            "extra": {
-                "laravel": {
-                    "providers": [
-                        "Zizaco\\Entrust\\EntrustServiceProvider"
-                    ],
-                    "aliases": {
-                        "Entrust": "Zizaco\\Entrust\\EntrustFacade"
-                    }
-                }
-            },
             "autoload": {
                 "classmap": [
                     "src/commands"
@@ -2299,7 +2289,7 @@
                 "permission",
                 "roles"
             ],
-            "time": "2017-11-13T23:25:18+00:00"
+            "time": "2016-12-29T06:25:06+00:00"
         }
     ],
     "packages-dev": [
@@ -4030,7 +4020,9 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "zizaco/entrust": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
